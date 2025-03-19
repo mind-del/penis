@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap</title>
+  <!-- CSS stils Bootstrap iekļaušana -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigācijas josla, kas paliek augšā, kad ritināt lapu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <!-- Navigācijas joslas saturu kolapsēšana -->
+      <div class="collapse navbar-collapse">
+        <!-- Navigācijas cilnes -->
+        <ul class="nav nav-tabs">
+          <li class="nav-item"><a class="nav-link active bg-primary text-white" href="#">Introduction</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Grid System</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Components</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">JS Plugins</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Getting started</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Author</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div class="row">
+      <!-- Satura kolonna -->
+      <div class="col">
+        <h1>Bootstrap</h1>
+        <h2>Introduction to Bootstrap</h2>
+        <p><strong>Bootstrap</strong> ir populāra priekšējā gala struktūra, lai izstrādātu responsīvas un mobilajām ierīcēm piemērotas tīmekļa vietnes un lietojumprogrammas. Mark Otto un Jacob Thornton to izstrādāja Twitter, un tā tika izlaista kā atvērtā koda projekts 2011. gadā. Bootstrap nodrošina izstrādātājus ar visaptverošu HTML, CSS un JavaScript komponentu kopumu, kas ļauj ātri veidot glītas un lietotājam draudzīgas saskarnes.</p>
+        <h3>Grid System and Responsiveness</h3>
+        <p>Bootstrap izmanto režģa sistēmu, kas balstās uz 12 kolonnu izkārtojumu, piedāvājot izstrādātājiem elastīgu un responsīvu struktūru satura organizēšanai dažādos ekrānu izmēros un ierīcēs. Šī režģa sistēma vienkāršo responsīvu dizainu veidošanas procesu, ļaujot vietnēm pielāgoties darbvirsmas datoriem, planšetēm un mobilajiem tālruņiem bez nepieciešamības pēc plašas pielāgotas koda rakstīšanas.</p>
+        <h3>Pre-styled Components and Utilities</h3>
+        <p>Viena no galvenajām Bootstrap īpašībām ir tās plašā iepriekš izveidoto komponentu un utilītu kolekcija, tostarp navigācijas joslas, pogas, formas un tipogrāfija. Šie komponenti ir veidoti ar mūsdienu tīmekļa dizaina principiem prātā, nodrošinot izstrādātājus ar konsekventu un estētiski pievilcīgu rīku komplektu, lai veidotu vizuāli pievilcīgas saskarnes. Turklāt Bootstrap modulārā arhitektūra ļauj izstrādātājiem pielāgot un paplašināt tās funkcionalitāti, lai atbilstu konkrētām projekta prasībām.</p>
+        <h3>JavaScript Plugin Support</h3>
+        <p>Bootstrap ietver arī spēcīgu atbalstu JavaScript spraudņiem, piemēram, modāliem, karuseļiem un padomiem, kas uzlabo tīmekļa lietojumprogrammu interaktivitāti un lietotāja pieredzi. Šie spraudņi ir viegli integrējami Bootstrap projektos un ir rūpīgi dokumentēti, padarot to vienkāršu izstrādātājiem iekļaut paplašinātas funkcionalitātes savos dizainos.</p>
+        <h3>Active Community and Ecosystem</h3>
+        <p>Bez plašā funkciju un komponentu komplekta Bootstrap lepojas ar aktīvu un dzīvīgu izstrādātāju kopienu, kas veicina spraudņus, tēmas un paplašinājumus struktūrai. Šī sadarbības ekosistēma veicina inovācijas un ļauj izstrādātājiem izmantot Bootstrap kopienas kolektīvo pieredzi, lai radītu modernākās tīmekļa pieredzes. Tā rezultātā Bootstrap turpina būt viena no visvairāk izmantotajām priekšējā gala struktūrām tīmekļa izstrādes nozarē, nodrošinot miljoniem vietņu un lietojumprogrammu visā pasaulē.</p>
+        <h3>Getting started</h3>
+        <!-- HTML koda paraugs, lai sāktu darbu ar Bootstrap -->
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;Bootstrap Demo&lt;/title&gt;
+&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+Hello, world!
+&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+        <h3>Author</h3>
+        <p>Mihails Kerns-Ostash</p>
+      </div>
+
+      <!-- Kartes komponents ar Bootstrap ietvaru informāciju -->
+      <div class="col">
+        <div class="card border-0">
+          <div class="card-header bg-primary text-white">
+            <h5 class="card-title">Bootstrap Framework</h5>
+          </div>
+          <div class="card-body">
+            <div class="logo-container">
+              <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png" class="img-fill" alt="#">
+            </div>
+            <p><strong>Original author(s)</strong></p>
+            <p>Mark Otto, Jacob Thornton, and contributors</p>
+            <p><strong>Initial release</strong></p>
+            <p>August 19, 2011; 13 years ago</p>
+            <p><strong>Stable release</strong></p>
+            <p>v5.3.3 / September 2023, 11 months ago</p>
+            <p><strong>Written in</strong></p>
+            <p>HTML, CSS and JavaScript</p>
+            <p><strong>License</strong></p>
+            <p>MIT License</p>
+            <p><strong>Website:</strong></p>
+            <p><a href="https://getbootstrap.com">getbootstrap.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- JavaScript spraudņa iekļaušana Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
